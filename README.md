@@ -18,6 +18,10 @@ npm run migrate:data
 
 The public website does not receive a write token. Access control is managed by Sanity project membership and roles.
 
+## Pengaturan website
+
+Buka **Pengaturan Website** di navigasi Studio untuk mengubah warna identitas/aksen dan warna kategori berita, teks pembuka hero, konten serta foto Tentang Kami, dan gambar QRIS. Nilai warna menggunakan format HEX enam digit, misalnya `#0d3d2b`. Setelah perubahan dipublikasikan, website publik akan mengambil pengaturan terbaru; warna netral/status dan placeholder QRIS tidak dikustomisasi.
+
 ## Deploy on Vercel
 
 This project includes [`vercel.json`](./vercel.json) for a static Sanity Studio deployment.

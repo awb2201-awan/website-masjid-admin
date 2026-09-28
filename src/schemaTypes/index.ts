@@ -4,7 +4,8 @@ import galeri from './galeri'
 import mimbarJumat from './mimbarJumat'
 import mitra from './mitra'
 import pengurus from './pengurus'
+import siteSettings from './siteSettings'
 
 export const schema: {types: SchemaTypeDefinition[]} = {
-  types: [berita, galeri, pengurus, mimbarJumat, mitra],
+  types: [berita, galeri, pengurus, mimbarJumat, mitra, siteSettings],
 }
