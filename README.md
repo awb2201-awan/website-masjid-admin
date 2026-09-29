@@ -2,6 +2,8 @@
 
 Standalone Sanity Studio for editing the content used by the public website.
 
+Studio can be used on phones: its built-in responsive navigation and editing screens are retained, with larger touch targets and mobile-friendly form controls on narrow screens. The Sanity-hosted sign-in screen is managed by Sanity and is not styled by this project.
+
 ## Local setup
 
 1. Copy `.env.example` to `.env` and fill in the Sanity project ID and dataset.

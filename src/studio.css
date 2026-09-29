@@ -1,0 +1,15 @@
+@media (max-width: 640px) {
+  button,
+  [role='button'],
+  input,
+  select {
+    min-height: 44px;
+  }
+
+  input,
+  select,
+  textarea {
+    max-width: 100%;
+    font-size: 16px !important;
+  }
+}
