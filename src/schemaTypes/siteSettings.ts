@@ -1,5 +1,4 @@
 import {defineField, defineType} from 'sanity'
-import ColorInput from '../components/color-input'
 
 const colorField = (name: string, title: string, initialValue: string) =>
   defineField({
@@ -7,8 +6,7 @@ const colorField = (name: string, title: string, initialValue: string) =>
     title,
     type: 'string',
     initialValue,
-    description: 'Klik kotak warna untuk memilih warna.',
-    components: {input: ColorInput},
+    description: 'Masukkan warna HEX, contoh: #0d3d2b',
     validation: (rule) => rule.required().regex(/^#[0-9a-fA-F]{6}$/, {name: 'hex color', invert: false}),
   })
 

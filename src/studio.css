@@ -13,13 +13,3 @@
     font-size: 16px !important;
   }
 }
-
-  .studio-color-picker {
-    width: 52px;
-    height: 44px;
-    padding: 4px;
-    border: 1px solid #d4d4d8;
-    border-radius: 8px;
-    background: white;
-    cursor: pointer;
-  }
